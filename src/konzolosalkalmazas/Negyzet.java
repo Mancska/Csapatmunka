@@ -3,11 +3,11 @@ package konzolosalkalmazas;
 
 
 public class Negyzet {
-    private int aoldal=0;
+    private int aoldal;
     
     
-    public Negyzet() {
-        
+    public Negyzet(int aoldal) {
+        this.aoldal=aoldal;
     }
 
     public int getAoldal() {

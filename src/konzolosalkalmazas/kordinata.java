@@ -2,8 +2,13 @@
 package konzolosalkalmazas;
 
 public class kordinata {
-    private int x=9;
-    private int y=9;
+    private int x,y;
+    
+
+    public kordinata(int x,int y) {
+            this.y=x;
+            this.x=y;
+    }
     
     
     public int getX() {
