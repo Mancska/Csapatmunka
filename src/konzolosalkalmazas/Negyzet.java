@@ -36,4 +36,10 @@ public class Negyzet {
             return("Nem egyforma");
         }
     }
+    @Override
+    public boolean equals(Object obj){
+    Negyzet masik =(Negyzet) obj;
+    return this.aoldal==masik.aoldal;
+    }
+    
 }
