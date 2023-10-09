@@ -9,7 +9,9 @@ public class main {
     }
 
     public static void allapot() {
-        Negyzet negyzet=new Negyzet(-1,new kordinata(20,30));
+        Negyzet negyzet=new Negyzet(3,new kordinata(20,30));
+        Negyzet negyzet2=new Negyzet(1,new kordinata(20,30));
+        System.out.println(negyzet.hasonlitas(negyzet2.getAoldal()));
         System.out.println(negyzet.toString());
     }
     

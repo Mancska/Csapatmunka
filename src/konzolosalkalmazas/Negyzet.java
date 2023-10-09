@@ -9,7 +9,6 @@ public class Negyzet {
     public Negyzet(int aoldal,kordinata kord) {
         this.kord=kord;
         setAoldal(aoldal);
-        
     }
 
     public int getAoldal() {
@@ -18,7 +17,7 @@ public class Negyzet {
     }
 
     public void setAoldal(int aoldal) {
-        if(this.aoldal<=0){
+        if(aoldal<=0){
             this.aoldal=1;
         }
         else{ this.aoldal = aoldal;}
@@ -27,5 +26,14 @@ public class Negyzet {
     @Override
     public String toString() {
         return "Negyzet{" + "aoldal=" + getAoldal() + " kordinata" + "x=" + kord.getX() + ", y=" + kord.getY() + '}';
+    }
+    public String hasonlitas(int negyzet2){
+        boolean negyzet=(this.getAoldal()==negyzet2);
+        if (negyzet){
+            return("egyforma");
+        }
+        else {
+            return("Nem egyforma");
+        }
     }
 }
