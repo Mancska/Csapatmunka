@@ -10,7 +10,6 @@ public class kordinata {
             this.x=y;
     }
     
-    
     public int getX() {
         return x;
     }

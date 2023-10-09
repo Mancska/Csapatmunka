@@ -17,16 +17,12 @@ public class Negyzet {
         return aoldal;
     }
 
-    
-
     public void setAoldal(int aoldal) {
         if(this.aoldal<=0){
             this.aoldal=1;
         }
         else{ this.aoldal = aoldal;}
     }
-
-    
 
     @Override
     public String toString() {
