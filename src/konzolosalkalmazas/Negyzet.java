@@ -7,7 +7,7 @@ public class Negyzet {
     
     
     public Negyzet(int aoldal) {
-        this.aoldal=aoldal;
+        setAoldal(aoldal);
     }
 
     public int getAoldal() {
