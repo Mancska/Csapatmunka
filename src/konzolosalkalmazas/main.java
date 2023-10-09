@@ -9,9 +9,8 @@ public class main {
     }
 
     public static void allapot() {
-        kordinata kordinata= new kordinata(5,6);
-        Negyzet negyzet=new Negyzet(-1);
-        System.out.println(negyzet.toString()+kordinata.toString());
+        Negyzet negyzet=new Negyzet(-1,new kordinata(20,30));
+        System.out.println(negyzet.toString());
     }
     
 }
